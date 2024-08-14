@@ -54,19 +54,20 @@ function Navbar() {
             : "fixed left-[-100%]"
         }
       >
+        {/* Mobile display */}
         <ul className="font-semibold text-4xl space-y-8 mt-24">
           <li>
-            <Link to="about" smooth={true} offset={50} duration={500}>
+            <Link to="about"  onClick={closeNav} smooth={true} offset={50} duration={500}>
               Sobre mí
             </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} offset={50} duration={500}>
+            <Link to="projects" onClick={closeNav} smooth={true} offset={50} duration={500}>
               Proyectos
             </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} offset={50} duration={500}>
+            <Link to="contact" onClick={closeNav} smooth={true} offset={50} duration={500}>
               Contacto
             </Link>
           </li>
