@@ -32,7 +32,7 @@ function Skills() {
         </h2>
         <div className="text-lg md:text-xl text-gray-100 md:mb-6 mb-4 p-4 rounded-lg bg-gradient-to-r from-gray-600 via-gray-700 to-gray-800 bg-opacity-90 shadow-lg leading-relaxed">
     <p className="font-light">
-    Durante mi formación académica en la universidad, he adquirido una sólida base en los principales lenguajes de programación a través de diversos cursos y asignaturas. Además, mi pasión personal por el desarrollo Front End me ha llevado a profundizar y perfeccionar continuamente mis habilidades en este campo, enfocándome en crear experiencias web atractivas y funcionales. 
+    Durante mi formación académica en la Universidad, he adquirido una sólida base en los principales lenguajes de programación a través de diversos cursos y asignaturas. Además, mi pasión personal por el desarrollo Front End me ha llevado a profundizar y perfeccionar continuamente mis habilidades en este campo, enfocándome en crear experiencias web atractivas y funcionales. 
 
     </p>
   <span className="font-bold">Estos son algunos de los lenguajes y herramientas en los que me he especializado:</span>
@@ -112,7 +112,7 @@ function Skills() {
         </a>
         <a
           href="https://www.linkedin.com/in/jonathan-orna-ponce/details/certifications/"
-          className="z-10 cursor-pointer font_bold place-self-center text-gray-200 w-[250px]  mt-6 p-3 bg-gradient-to-r  from-[#50a7c7] via-[#1f7c8f] to-[#3d6ca4] rounded-2xl  flex justify-center"
+          className="z-10 cursor-pointer font_bold place-self-center text-gray-200 w-[250px] m-4  p-3 bg-gradient-to-r  from-[#50a7c7] via-[#1f7c8f] to-[#3d6ca4] rounded-2xl  flex justify-center"
           target="_blank"
           rel="noopener noreferrer"
         >
