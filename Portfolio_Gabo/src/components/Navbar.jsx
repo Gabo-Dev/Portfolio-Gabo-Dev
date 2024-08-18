@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
+import CloseIcon from "../assets/closeIcon.jsx";
+import MenuIcon from "../assets/menuIcon.jsx";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -44,7 +45,7 @@ function Navbar() {
         </li>
       </ul>
       <div onClick={toggleNav} className="md:hidden z-30">
-        {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
+        {nav ? <CloseIcon className="size-8" /> : <MenuIcon className="size-14"  />}
       </div>
 
       <div

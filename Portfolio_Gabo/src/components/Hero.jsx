@@ -1,12 +1,14 @@
 import React from "react";
 import profilepic from "../assets/profilePortfolio.jpeg";
-import { TypeAnimation } from "react-type-animation";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Github from "../assets/githubIcon.jsx";
+import LinkedIn from "../assets/linkedInIcon.jsx";
+import { TypeAnimation } from  'react-type-animation';
 
 function Hero() {
     const contactClass =
      "transform transition-transform   hover:scale-105 hover:shadow-lg z-10 cursor-pointer font_bold text-gray-200 w-auto  mt-6 p-3 bg-gradient-to-r  from-[#50a7c7] via-[#1f7c8f] to-[#3d6ca4] rounded-2xl  flex items-center ";
-  return (
+  
+     return (
     <div className="grid md:grid-cols-2 place-items-center   mb-8 md:mb-32 mx-6">
       <div className="max-w-[800px] inline-block">
         <p className="text-gray-200 md:text-6xl  text-3xl tracking-tight">
@@ -29,7 +31,7 @@ function Hero() {
             rel="noopener noreferrer" // Buenas prácticas de seguridad
             className={contactClass}
           >
-            <FaLinkedin className="mr-2" />
+            <LinkedIn className="mr-2"/>
             LinkedIn
           </a>
           <a
@@ -38,7 +40,7 @@ function Hero() {
            rel="noopener noreferrer" // Buenas prácticas de seguridad
             className={contactClass}
           >
-            <FaGithub className="mr-2 " />
+            <Github  className="mr-2"/>
             Github
           </a>
         </div>
