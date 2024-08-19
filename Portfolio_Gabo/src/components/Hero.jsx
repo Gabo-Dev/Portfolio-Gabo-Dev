@@ -1,7 +1,6 @@
 import React from "react";
 import profilepic from "../assets/profilePortfolio.jpeg";
-import Github from "../assets/githubIcon.jsx";
-import LinkedIn from "../assets/linkedInIcon.jsx";
+import {Github, LinkedIn} from "../assets/Icons.jsx";
 import { TypeAnimation } from  'react-type-animation';
 
 function Hero() {

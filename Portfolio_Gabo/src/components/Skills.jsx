@@ -1,9 +1,7 @@
 import React from "react";
-import GithubIcon from "../assets/githubIcon.jsx";
-import LinkedIn from "../assets/linkedInIcon.jsx";
-import HTML5 from "../assets/htmlIcon.jsx";
-import ReactIcon from "../assets/reactIcon.jsx";
-import Udemy from "../assets/udemyIcon.jsx"
+import { Github, HTML5, LinkedIn, ReactIcon, CSS,
+   NPM, VisualStudioCode, EclipseIDE, Udemy,Edx,
+   Bootstrap } from "../assets/Icons.jsx";
 
 function Skills() {
   const iconClasses =
@@ -42,9 +40,14 @@ function Skills() {
           className="bg-white w-[380px] md:w-[500px] bg-opacity-10 backdrop-blur-lg 
         rounded-lg p-4  flex  gap-3 text-3xl  md:text-5xl self-center"
         >
-          <GithubIcon className={iconClasses} />
+          <Github className={iconClasses} />
           <ReactIcon className={iconClasses} />
           <HTML5 className={iconClasses} />
+          <CSS className={iconClasses}/>
+          <Bootstrap className={iconClasses}/>
+          <EclipseIDE className={iconClasses}/>
+          <VisualStudioCode className={iconClasses}/>
+          <NPM className={iconClasses}/>
         </div>
       </div>
       <h2 className="text-gray-200 text-2xl md:text-3xl font-semibold ml-5 mt-2 mb-5 tracking-tight flex items-center">
@@ -57,7 +60,7 @@ function Skills() {
           target="_blank"
           rel="noopener noreferrer"
         >
-
+          <Edx className="size-20 mx-3 bg-gray-100" />
           <div className="flex flex-col justify-between p-2 leading-normal">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
               Developing Front End Apps with React

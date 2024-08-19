@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import CloseIcon from "../assets/closeIcon.jsx";
-import MenuIcon from "../assets/menuIcon.jsx";
+import {MenuIcon, CloseIcon} from "../assets/Icons.jsx";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
