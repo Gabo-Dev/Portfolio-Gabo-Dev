@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-   <div>h</div>
+   <div className="bg-gray-300">h</div>
   );
 }
 

@@ -330,3 +330,29 @@ export const Bootstrap = (props) => (
     />
   </svg>
 );
+
+// code Icon
+export const IconBxCodeAlt = (props) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    height="1em"
+    width="1em"
+    {...props}
+  >
+    <path d="M7.375 16.781l1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 000 1.562l5 4zm9.25-9.562l-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 000-1.562l-5-4zm-1.649-4.003l-4 18-1.953-.434 4-18z" />
+  </svg>
+);
+
+//  certifies Icon
+export const CertificateIcon = (props) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    height="1em"
+    width="1em"
+    {...props}
+  >
+    <path d="M13 21l2-1 2 1v-7h-4m4-5V7l-2 1-2-1v2l-2 1 2 1v2l2-1 2 1v-2l2-1m1-7H4a2 2 0 00-2 2v10a2 2 0 002 2h7v-2H4V5h16v10h-1v2h1a2 2 0 002-2V5a2 2 0 00-2-2m-9 5H5V6h6m-2 5H5V9h4m2 5H5v-2h6z" />
+  </svg>
+);

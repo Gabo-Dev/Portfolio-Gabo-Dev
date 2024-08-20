@@ -11,8 +11,8 @@ import Projects from './components/Projects'
     <Navbar />
     <Hero />
     <Skills />
-    <About/>
     <Projects />
+    <About/>
     </>
   )
 }
