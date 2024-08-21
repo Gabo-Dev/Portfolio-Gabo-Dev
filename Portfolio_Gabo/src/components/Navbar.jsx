@@ -12,7 +12,7 @@ function Navbar() {
     setNav(false);
   };
   return (
-    <div className="flex text-2xl justify-between text-gray-200 items-center px-6 max-w-[1300px] mx-auto h-24">
+    <div className="flex text-2xl md:justify-between text-gray-200 items-center  px-6 max-w-screen w-full mx-auto h-24">
       <a href="#Inicio">Gabo-Dev</a>
       <ul className="hidden md:flex gap-12 <-10 cursor-pointer">
         <li className="relative group">
@@ -43,7 +43,7 @@ function Navbar() {
           ></span>
         </li>
       </ul>
-      <div onClick={toggleNav} className="md:hidden z-30">
+      <div onClick={toggleNav} className="md:hidden z-30  ml-auto">
         {nav ? <CloseIcon className="size-8" /> : <MenuIcon className="size-14"  />}
       </div>
 

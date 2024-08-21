@@ -8,8 +8,8 @@ function Hero() {
      "transform transition-transform   hover:scale-105 hover:shadow-lg z-10 cursor-pointer font_bold text-gray-200 w-auto  mt-6 p-3 bg-gradient-to-r  from-[#50a7c7] via-[#1f7c8f] to-[#3d6ca4] rounded-2xl  flex items-center ";
   
      return (
-    <div className="grid md:grid-cols-2 place-items-center   mb-8 ">
-      <div className="max-w-[800px] inline-block">
+    <div className="md:grid md:grid-cols-2   m-5 ">
+      <div >
         <p className="text-gray-200 md:text-6xl  text-3xl tracking-tight">
           Hey, soy <br />
           <span>Gabo Dev</span> <br />
@@ -23,7 +23,7 @@ function Hero() {
         <p className="text-gray-300 mt-2">
           Especializado en el desarrollo de aplicaciones web únicas.
         </p>
-        <div className="flex flex-row gap-4 mb-2 md:mb-0 max-w-[200px]">
+        <div className="flex flex-row gap-4 mb-2 md:mb-0 ">
           <a
             href="https://www.linkedin.com/in/jonathan-orna-ponce/"
             target="_blank"
@@ -44,7 +44,7 @@ function Hero() {
           </a>
         </div>
       </div>
-      <img src={profilepic} className="w-[300px] md:w-[500px] mt-8
+      <img src={profilepic} className="w-[300px] md:w-[500px] mt-8 
        rounded-full" loading="lazy" alt="foto de perfil" />
     </div>
   );
