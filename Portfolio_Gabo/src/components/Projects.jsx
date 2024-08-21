@@ -12,29 +12,32 @@ function Projects() {
           <span className="animate-bounce">Proyectos</span>
         </div>
       </span>
-      <Carousel
-        depth={2}
-        spread="normal"
-        showStatus={false}
-        height="500px"
-        width="300px"
-      >
-        <Card
-          image={proyecto1}
-          title="E-Plant"
-          description="Website diseñada para la venta de plantas."
-        />
-        <Card
-          image={proyecto1}
-          title="E-Plant"
-          description="Website diseñada para la venta de plantas."
-        />
-        <Card
-          image={proyecto1}
-          title="E-Plant"
-          description="Website diseñada para la venta de plantas."
-        />
-      </Carousel>
+      <div className="md:w-1/2  w-[400px]  place-self-center">
+        <Carousel
+          depth={0}
+          spread="normal"
+          showStatus={false}
+          showArrows={false}
+          height="550px"
+          width="40vh"
+        >
+          <Card
+            image={proyecto1}
+            title="E-Plant"
+            description="Website diseñada para la venta de plantas."
+          />
+          <Card
+            image={proyecto1}
+            title="E-Plant"
+            description="Website diseñada para la venta de plantas."
+          />
+          <Card
+            image={proyecto1}
+            title="E-Plant"
+            description="Website diseñada para la venta de plantas."
+          />
+        </Carousel>
+      </div>
     </section>
   );
 }
