@@ -2,13 +2,13 @@ import React from "react";
 
 function Card({image,title,description}) {
   return (
-    <div className=" rounded-3xl overflow-hidden shadow-lg bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-yellow-200 via-red-500 to-fuchsia-500">
+    <div className=" rounded-3xl overflow-hidden  shadow-lg bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-yellow-200 via-red-500 to-fuchsia-500">
       <img
         className="w-full transition-transform duration-500 transform hover:translate-x-2 hover:translate-y-8 hover:scale-125"
         src={image}
         alt={title}
       />
-      <div className="px-6 py-4">
+      <div className="p-10 w-full">
         <div className="font-bold text-xl mb-2  text-gray-200">
           {title}
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic from "../assets/profilePortfolio.jpeg";
+import profilepic from "../assets/profilePortfolio.webp";
 import {Github, LinkedIn} from "../assets/Icons.jsx";
 import { TypeAnimation } from  'react-type-animation';
 
