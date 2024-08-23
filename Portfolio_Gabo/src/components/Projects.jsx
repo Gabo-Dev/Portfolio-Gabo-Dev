@@ -14,10 +14,10 @@ function Projects() {
       </span>
       <div className="md:w-1/2  w-full p-5  place-self-center">
         <Carousel
-          depth={0}
+          depth={2}
           spread="normal"
           showStatus={false}
-          showArrows={false}
+          autoPlay={false}
           height="550px"
           width="40vh"
         >
