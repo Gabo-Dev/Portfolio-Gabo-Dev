@@ -12,14 +12,14 @@ function Projects() {
           <span className="animate-bounce">Proyectos</span>
         </div>
       </span>
-      <div className="md:w-1/2  w-full p-5  place-self-center">
+      <div className="md:w-1/2  w-full   place-self-center">
         <Carousel
           depth={2}
           spread="normal"
           showStatus={false}
           autoPlay={false}
-          height="550px"
-          width="40vh"
+          height="400px"
+          width="35vh"
         >
           <Card
             image={proyecto1}

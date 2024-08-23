@@ -34,8 +34,8 @@ function Skills() {
         <IconBxCodeAlt className="text-orange-400 size-7 "/>
           Lenguajes de Programación
         </h2>
-      <div className="flex flex-wrap  justify-center items-center w-full max-w-full overflow-hidden ">
-        <div className=" text-gray-100 md:mb-6 mb-4  w-full max-w-full   rounded-lg bg-gradient-to-r from-gray-600 via-gray-700 to-gray-800 bg-opacity-90 shadow-lg leading-relaxed">
+      <div className="flex flex-wrap  justify-center items-center p-3 w-full max-w-full overflow-hidden ">
+        <div className=" text-gray-100 md:mb-6 mb-4    p-2  bg-gradient-to-r from-gray-600 via-gray-700 to-gray-800 bg-opacity-90 shadow-lg leading-relaxed">
           <p className="font-light">
             Durante mi formación académica en la Universidad, he adquirido una
             sólida base en los principales lenguajes de programación a través de
