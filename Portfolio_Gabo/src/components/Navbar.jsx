@@ -13,7 +13,7 @@ function Navbar() {
   };
   return (
     <div className="flex text-2xl md:justify-between text-gray-200 items-center  px-6 max-w-screen w-full mx-auto h-24">
-      <a href="#Inicio">Gabo-Dev</a>
+      <span>GABO-DEV</span>
       <ul className="hidden md:flex gap-12 <-10 cursor-pointer">
         <li className="relative group">
           <Link to="about" smooth={true} offset={50} duration={500}>
@@ -25,7 +25,7 @@ function Navbar() {
           ></span>
         </li>
         <li className="relative group">
-          <Link to="projects" smooth={true} offset={50} duration={500}>
+          <Link to="projects" smooth={true} offset={-10} duration={500}>
             Proyectos
           </Link>
           <span
@@ -34,8 +34,8 @@ function Navbar() {
           ></span>
         </li>
         <li className="relative group">
-          <Link to="contact" smooth={true} offset={50} duration={500}>
-            Contacto
+          <Link to="skills" smooth={true} offset={-10} duration={500}>
+            Skills
           </Link>
           <span
             className="absolute bottom-0 left-0 w-full h-1 bg-sky-600 transform scale-x-0

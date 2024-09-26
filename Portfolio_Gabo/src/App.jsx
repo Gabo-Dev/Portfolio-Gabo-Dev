@@ -1,20 +1,24 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
- function App() {
+function App() {
   return (
     <>
-    <Navbar />
-    <Hero />
-    <Skills />
-    <Projects />
-    <About/>
+      <header>
+        <Navbar />
+        <Hero />
+      </header>
+      <main>
+        <Skills />
+        <Projects />
+        <About />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
