@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "react-responsive-3d-carousel";
 import Card from "./Card";
 import proyecto1 from "../assets/proyecto1.webp";
+import proyecto2 from "../assets/proyecto2.webp";
 
 function Projects() {
   return (
@@ -12,14 +13,15 @@ function Projects() {
           <span className="animate-bounce">Proyectos</span>
         </div>
       </span>
-      <div className="md:w-1/2  w-full   place-self-center">
+      <div className="md:w-[70%]  w-full   place-self-center">
         <Carousel
           depth={2}
+          transitionTime={1000}
           spread="normal"
+          showArrows={false}
           showStatus={false}
-          autoPlay={false}
-          height="400px"
-          width="35vh"
+          height="500px"
+          width="50vh"
         >
           <Card
             image={proyecto1}
@@ -27,9 +29,9 @@ function Projects() {
             description="Website diseñada para la venta de plantas."
           />
           <Card
-            image={proyecto1}
-            title="E-Plant"
-            description="Website diseñada para la venta de plantas."
+            image={proyecto2}
+            title="VibeStream"
+            description="Website diseñada para descubrir las mejores canciones."
           />
           <Card
             image={proyecto1}
