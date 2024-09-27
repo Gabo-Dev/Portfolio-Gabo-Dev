@@ -21,7 +21,7 @@ function Skills() {
   const certificatesClasses =
     "flex flex-col items-center w-[1/2] bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700";
   return (
-    <section className="grid   mx-auto max-w-screen w-full  md:mt-14 shadow-lg gap-1" id="skills">
+    <section className="grid   mx-auto max-w-screen w-full  md:mt-28 shadow-lg gap-1" id="skills">
       <span className="relative inline-flex overflow-hidden rounded-full p-[3px]  w-[150px]">
         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#51E4B8_0%,#21554E_50%,#51E4B8_100%)]"></span>
         <div className="inline-flex items-center justify-center w-full  text-4xl font-bold text-green-800 bg-green-100 rounded-full cursor-pointer dark:bg-gray-800 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
@@ -36,7 +36,7 @@ function Skills() {
         </h2>
       <div className="flex flex-wrap  justify-center items-center p-3 w-full max-w-full overflow-hidden ">
         <div className=" text-gray-100 md:mb-6 mb-4    p-2  bg-gradient-to-r from-gray-600 via-gray-700 to-gray-800 bg-opacity-90 shadow-lg leading-relaxed">
-          <p className="font-light">
+          <p className="text-gray-300">
             Durante mi formación académica en la Universidad, he adquirido una
             sólida base en los principales lenguajes de programación a través de
             diversos cursos y asignaturas. Además, mi pasión personal por el

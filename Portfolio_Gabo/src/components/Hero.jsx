@@ -8,7 +8,7 @@ function Hero() {
      "transform transition-transform   hover:scale-105 hover:shadow-lg z-10 cursor-pointer font_bold text-gray-200 w-auto  mt-6 p-3 bg-gradient-to-r  from-[#50a7c7] via-[#1f7c8f] to-[#3d6ca4] rounded-2xl  flex items-center ";
   
      return (
-    <div className="md:grid md:grid-cols-2   m-5 place-items-center justify-items-center">
+    <section className="md:grid md:grid-cols-2  place-items-center">
       <div >
         <p className="text-gray-200 md:text-6xl  text-3xl tracking-tight">
           Hey, soy <br />
@@ -44,9 +44,9 @@ function Hero() {
           </a>
         </div>
       </div>
-      <img src={profilepic} className="w-[300px] md:w-[500px] mt-8 
+      <img src={profilepic} className="w-[300px] md:w-[500px] m-6 md:m-0
        rounded-full" loading="lazy" alt="foto de perfil" />
-    </div>
+    </section>
   );
 }
 

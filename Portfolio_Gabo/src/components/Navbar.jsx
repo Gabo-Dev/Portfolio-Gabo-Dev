@@ -67,9 +67,9 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="contact" onClick={closeNav} smooth={true} offset={50} duration={500}>
-              Contacto
-            </Link>
+          <Link to="skills" onClick={closeNav} smooth={true} offset={-10} duration={500}>
+            Skills
+          </Link>
           </li>
         </ul>
       </div>
